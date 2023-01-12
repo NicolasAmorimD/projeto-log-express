@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+}
+
+body * {
+    font-family: "Barlow", sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+/*FIM CONFIG PADRAO************/
+
+#conteiner {
+    margin: auto;
+}
+
+.conteiner {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #000C20;
+}
+
+#conteiner-header {
+    
+    
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    padding: 10px 15px;
+    transition: .2s;
+}
+
+a:hover {
+    color: #fd5e16;
+}
+
+#get {
+    background-color: #fd5e16;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#get:hover {
+    background-color: #d04e12;
+    color: white;
+}
+/*FIM HEADER*****************/
+
+
+#item-1 {
+    width: 100%;
+    height: 600px;
+    background: url(images/carreta.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+#item-1 > div {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#content {
+    width: 60%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1,  h1 span {
+    font-size: 60px;
+    line-height: 70px;
+    font-family: 'Teko';
+}
+
+h1 span {
+    color: #fd5e16;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 200px;
+    align-items: enter;   
+}
+
+input {
+    width: 70%;
+    min-width: 150px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+input, button {
+    padding: 18px;
+}
+
+button {
+    background-color: #fd5e16;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "inter";
+    padding: 15px;
+    width: 30%;
+    min-width: 110px;
+    font-size: 13px;
+    transition: .2s;
+}
+
+button:hover {
+    background-color: #d04e12;
+}
+/*FIM ITEM-2************/
+
+#item-2 {
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.conteiner-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.informations {
+    display: flex;
+    padding: 60px 20px 60px 0;
+}
+
+.icon {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: #fd5e16;
+}
+
+.informations span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #2c234d;
+}
+/*FIM ITEM-2*****************/
+
+#item-3 {
+    padding-top: 100px;
+    width: 100%;
+}
+
+.title-item-3 {
+    text-align: center;
+}
+
+.title-item-3 h3 {
+    font-size: 18px;
+    color: #fd5e16;
+    margin-bottom: 10px;
+}
+
+.title-item-3 p {
+    font-family: "Teko";
+    font-size: 42px;
+    color: #2c234d;
+    font-weight: 600;
+}
+
+.conteiner-cards-item-3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.cards-item-3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid #e1ebf7;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.cards-item-3 a {
+    color: black;
+    padding: 80px 30px;
+    height: 100%;
+}
+
+.icon-cards {
+    font-size: 40px;
+    color: #fd5e16;
+}
+
+.cards-item-3 h4 {
+    color: #2c234d;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.cards-item-3:hover * {
+    color: white;
+    transition: .8s;
+}
+
+.cards-item-3:hover {
+    background-color: #fd5e16;
+    color: white;
+    transition: .7s;
+}
