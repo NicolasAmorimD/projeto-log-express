@@ -357,7 +357,7 @@ h1 span {
     border-radius: 10px;
 }
 
-.conteiner-form-item-5 h4 {
+.h4-default  {
     color: #fd5e16;
     font-size: 15px;
     margin-bottom: 10px;
@@ -375,7 +375,7 @@ h1 span {
     display: block;
     color: #64676c;
     font-size: 15px;
-    margin-top: 10px;
+    margin: 10px 0 15px 0;
 }
 
 .form-item-5 input {
@@ -421,4 +421,147 @@ h1 span {
     align-items: center;
     padding: 5px;
     gap: 8px;
+}
+
+#btn-item-5 {
+    background-color: #fd5e16;
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    width: 100%;
+    cursor: pointer;
+}
+
+#btn-item-5:hover {
+    background-color: #d04e12;
+    transition: .2s;
+}
+/*FIM ITEM-5********************/
+
+#item-6 {
+    margin-top: 100px;
+}
+
+.our-notices {
+    text-align: center;
+}
+
+.our-notices p {
+    color: #2c234d;
+    font-size: 36px;
+    font-family: "Teko";
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.conteiner-img-item-6 {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 70px;
+}
+
+.noticias {
+    width: 100%;
+    max-width: 307px;
+    margin: auto;
+}
+
+.noticias img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.noticias a {
+    color: black;
+}
+
+.footer-img {
+    display: flex;
+    padding: 12px 0 ;
+}
+
+.day-month {
+    background-color: #eeebeb;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    height: 60px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.day-month > p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #1b1b1b;
+}
+
+.day-month > p > span {
+    color: #fd5e16;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.caption-img {
+    display: flex;
+    flex-direction: column;
+    color: #717b9b;
+    padding: 3px 0 0 18px;
+}
+
+.caption-img > div {
+    display: flex;
+}
+
+.caption-img p {
+    font-size: 13px;
+}
+
+.caption-img h5 {
+    font-size: 21px;
+    color: #2c234d;
+    font-family: "Teko";
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.caption-img h5:hover {
+    color: #fd5e16;
+    transition: .4s;
+}
+/*FIM ITEM-6***********************/
+
+footer {
+    background-color: #121212;
+    height: 600px;
+    margin-top: 130px;
+}
+
+.footer-heading {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 100px 0 50px 0;
+    color: white;
+    border-bottom: 1px solid #1a2537;
+}
+
+.footer-heading p {
+    font-size: 30px;
+    font-weight: 700;
+    width: 100%;
+    max-width: 500px;
+    padding-right: 20px;
+}
+
+.footer-heading span {
+    color: #fd5e16;
+    font-size: 30px;
+    font-weight: 700;
 }
