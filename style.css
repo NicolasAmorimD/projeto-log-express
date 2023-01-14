@@ -539,7 +539,7 @@ h1 span {
 footer {
     background-color: #121212;
     margin-top: 130px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 .footer-heading {
@@ -591,6 +591,12 @@ footer {
 
 .conteiner-footer-end li a {
     color: #868c98;
+    transition: .2s;
+}
+
+.conteiner-footer-end li a:hover {
+    color: #fd5e16;
+    margin-left: 3px;
 }
 
 .company-openHour {
